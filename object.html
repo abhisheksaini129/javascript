@@ -5,11 +5,13 @@
     <script>
       var a ={
       fname:"Abhishek",
-      lname:"saini",
+      lname:"Saini",
       age:22,
-      country:"india"
+      country:"India"
     };
-      document.write(a.fname + "<br>"+a.lname+"<br>"+a.age+"<br>"+a.country);
+      for(ind in a) {
+      document.write(a[ind]+"<br>");
+    }
     </script>
 </head>
 <body>
